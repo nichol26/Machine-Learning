@@ -13,7 +13,7 @@ Created on Mon Jul 13 09:15:57 2020
 3. predict housing prices
 4. carries out coordinate descent for the ith weight
 5. carries out coordinate descent for all weights until max of the absolute values
-   in the change of the weight in neglibly small
+   in the change of the weights very small
 '''
 
 import pandas as pd
