@@ -2,12 +2,7 @@
 """
 Created on Mon Jul 13 09:15:57 2020
 
-@author: Sarah
 """
-
-import pandas as pd
-import numpy as np
-
 
 '''
  This script uses coordinate descent with a linear regression model that includes
@@ -20,6 +15,9 @@ import numpy as np
 5. carries out coordinate descent for all weights until max of the absolute values
    in the change of the weight in neglibly small
 '''
+
+import pandas as pd
+import numpy as np
 
 def get_numpy_data(data_frame, features, output):
     data_frame['constant'] = 1  
