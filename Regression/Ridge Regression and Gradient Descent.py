@@ -90,8 +90,7 @@ print(feature_derivative_ridge(errors, example_features[:,0], my_weights[0], 1, 
 print(np.sum(errors)*2)
 
 
-
-# ----- PUT TITLE HERE
+# Upload additional data
 test_data = pd.read_csv('kc_house_test_data.csv', dtype = dtype_dict) 
 train_data = pd.read_csv('kc_house_train_data.csv', dtype = dtype_dict) 
 
