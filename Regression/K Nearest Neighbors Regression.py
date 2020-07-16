@@ -8,9 +8,9 @@ Created on Tue Jul 14 13:17:04 2020
 ''' This script containts a series of functions that 
 1. turn data into numpy arrays
 2. normalize the data
-3. compute euclidean distances between obersvations
+3. compute euclidean distances between observations
 4. find the k nearest neihghbours to a chosen datapoint
-5. Based on the k nearest neighbours predict the price house of a chosen observation
+5. Based on the k nearest neighbours predict the house price of a chosen observation
    point
 6. Predict a series of housing prices based on k nearest neighbours
 
