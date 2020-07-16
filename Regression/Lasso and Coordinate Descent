@@ -5,15 +5,15 @@ Created on Mon Jul 13 09:15:57 2020
 """
 
 '''
- This script uses coordinate descent with a linear regression model that includes
+ This script uses coordinate descent with a regression model that includes
  a lasso term as the regularization parameter. To carry out coordinate descent
- with a linear model with a lasso term this script uses functions that 
+ with a regression model with a lasso term this script uses functions that: 
 1. turn data into numpy arrays
 2. normalize the data
 3. predict housing prices
 4. carries out coordinate descent for the ith weight
 5. carries out coordinate descent for all weights until max of the absolute values
-   in the change of the weights very small
+   in the change of the weights is very small
 '''
 
 import pandas as pd
