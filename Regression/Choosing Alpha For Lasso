@@ -4,7 +4,7 @@ Created on Sun Jul 12 11:37:27 2020
 
 """
 '''
-This script explores how different values of alpha for a linear regression model
+This script explores how different values of alpha for a regression model
 that includes an l1 penalty terms effects the number of parameters and the residual
 sum of squares of the predicted outputs in the validation dataset. This script
 also uses the validation set to select an alpha that reduces the number of parameters
